@@ -1,6 +1,6 @@
-* {
+/* * {
     outline: 2px rgb(242, 5, 5) solid;
-}
+} */
 
 :root {}
 
@@ -41,34 +41,126 @@ body {
     font-family: Source Sans Pro;
     font-weight: bold;
     font-size: 16px;
-    gap: 50px;
-    margin: 20px 20px 20px 20px;
-    padding-left: 40%;
+    margin-bottom: 38px;
+    gap: 59px;
+    justify-content: center;
 }
 
 button {
     display: flex;
     margin: auto;
     background-color: #C271FF;
+    padding: 13px 20px;
     box-sizing: content-box;
     border: #C271FF;
     border-radius: 30px;
     text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.5);
+
 }
+
+.learn-head {
+    font-size: 32px;
+    font-weight: lighter;
+    margin-bottom: 87px;
+}
+
 
 .learn {
-    color: #C271FF;
+    color: #C271FF !important;
+    font-weight: bold !important;
 }
 
-.l_p {
+.l-f-p {
     font-family: Source Sans Pro;
     text-align: center;
 }
 
-.images{
+.l-f-pros {
+    color: white;
+    margin-top: 168px;
+
+}
+
+
+.images {
     display: flex;
-    padding-left: 109px;
-    margin-bottom: 92px;
-    gap: 10px;
+    padding-left: 214px;
+    padding-right: 214px;
+    gap: 129px;
     text-align: center;
+    justify-content: center;
+}
+
+.img-rounded {
+
+    width: 150px;
+    /* Set a specific width */
+    height: 150px;
+    /* Set a specific height */
+    border-radius: 50%;
+    /* Make the image round */
+}
+
+.weather-presenter {
+    display: flex;
+    background-color: #C271Ff;
+    justify-content: center;
+    padding: 100px 0;
+    color: white;
+    gap: 53px;
+}
+
+.blockquote-text {
+    max-width: 700px;
+}
+
+.w-name {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Source Sans Pro;
+    padding-left: 45px;
+}
+
+.w-p {
+    font-size: 22px;
+    font-style: italic;
+    font-family: Source Sans Pro;
+    padding-left: 45px;
+}
+
+.most-popular-head {
+    margin-top: 87px;
+    margin-bottom: 75px;
+    text-align: center;
+    font-weight: 100px;
+}
+
+
+.most-popular {
+    background-color: white;
+    padding: 100px;
+
+}
+
+/* .main-most-popular {} */
+
+.most-popular-items {
+    display: flex;
+    padding: 100px;
+    gap: 50px;
+    justify-content: center;
+}
+
+h4 {
+    color: #C271Ff;
+    font-size: 14px;
+}
+
+.stars {
+    padding: 30px;
+    color: #C271Ff;
 }
