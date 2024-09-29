@@ -5,12 +5,8 @@
     box-sizing: border-box;
 }
 
-/* * {
-    outline: 2px rgb(242, 5, 5) solid;
-} */
-
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -365,17 +361,5 @@ footer {
         text-align: center;
         color: white;
         margin-top: 100px;
-    }
-
-    .hero-content {
-        margin: auto;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .hero-content h1 {
-        font-size: 32px;
-        font-weight: bold;
-        text-align: center;
     }
 }
